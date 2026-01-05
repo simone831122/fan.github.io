@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 亚马逊全球开店战略大卖日历</title>
+    <style>
+        :root {
+            --primary-color: #232f3e; /* Amazon Dark Blue */
+            --secondary-color: #ff9900; /* Amazon Orange */
+            --bg-color: #f3f3f3;
+            --card-bg: #ffffff;
+            --text-main: #333;
+            --text-sub: #666;
+            --tag-us: #007bff;
+            --tag-eu: #28a745;
+            --tag-jp: #dc3545;
+            --tag-other: #6c757d;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 { margin: 0; font-size: 2.5em; }
+        header p { color: #ddd; font-size: 1.2em; margin-top: 10px; }
+
+       .timeline-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+       .month-section {
+            margin-bottom: 50px;
+        }
+
+       .month-title {
+            font-size: 2em;
+            color: var(--primary-color);
+            border-left: 8px solid var(--secondary-color);
+            padding-left: 15px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+
+       .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 20px;
+        }
+
+       .event-card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-top: 4px solid var(--secondary-color);
+            display: flex;
+            flex-direction: column;
+        }
+
+       .event-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+       .card-header {
+            padding: 15px 20px;
+            background-color: #fafafa;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+       .date-badge {
+            font-weight: bold;
+            color: var(--primary-color);
+            font-size: 0.9em;
+            background: #e9ecef;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+
+       .card-body {
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+       .event-name {
+            font-size: 1.4em;
+            margin: 0 0 15px 0;
+            color: var(--primary-color);
+        }
+
+       .sites-container {
+            margin-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+       .site-tag {
+            font-size: 0.75em;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            text-transform: uppercase;
+        }
+       .site-tag.us { background-color: var(--tag-us); }
+       .site-tag.eu { background-color: var(--tag-eu); }
+       .site-tag.jp { background-color: var(--tag-jp); }
+       .site-tag.other { background-color: var(--tag-other); }
+
+       .category-list h4 {
+            margin: 10px 0 5px;
+            font-size: 0.95em;
+            color: var(--text-sub);
+            text-transform: uppercase;
+        }
+
+       .category-list ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+       .category-list li {
+            font-size: 0.95em;
+            margin-bottom: 4px;
+            padding-left: 15px;
+            position: relative;
+        }
+
+       .category-list li::before {
+            content: "•";
+            color: var(--secondary-color);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: var(--text-sub);
+            font-size: 0.9em;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8em; }
+           .month-title { font-size: 1.5em; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>2026 亚马逊全球开店大卖日历</h1>
+    <p>关键营销节点 | 覆盖站点 | 热卖品类深度解析</p>
+</header>
+
+<div class="timeline-container">
+
+    <section class="month-section">
+        <h2 class="month-title">1月 January</h2>
+        <div class="cards-grid">
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">1.1 - 1.31</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">新年焕新季</h3>
+                    <div class="sites-container">
+                        <span class="site-tag us">美国</span>
+                        <span class="site-tag eu">欧洲</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>健康健身：瑜伽垫、弹力带、运动水壶</li>
+                            <li>家居整理：收纳盒、标签机、衣架</li>
+                            <li>自我提升：手账本、效率工具</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">1.2 - 2.28</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">冬季清仓大促</h3>
+                    <div class="sites-container">
+                        <span class="site-tag eu">欧洲五国</span>
+                        <span class="site-tag other">荷兰/瑞典/波兰</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>冬季服饰：羽绒服、雪地靴、手套</li>
+                            <li>取暖设备：电热毯、暖风机</li>
+                            <li>滑雪装备：滑雪镜、防风面罩</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            
+             <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">1.9 - 2.4</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">南半球返校季</h3>
+                    <div class="sites-container">
+                        <span class="site-tag other">澳洲</span>
+                        <span class="site-tag other">巴西</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>文具：笔记本、笔袋、科学计算器</li>
+                            <li>电子：笔记本电脑、平板保护壳</li>
+                            <li>鞋服：校服、黑皮鞋、运动鞋</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="month-section">
+        <h2 class="month-title">2月 February</h2>
+        <div class="cards-grid">
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">2.8</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">超级碗 (Super Bowl)</h3>
+                    <div class="sites-container">
+                        <span class="site-tag us">美国</span>
+                        <span class="site-tag us">加拿大</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>影音：大屏电视、投影仪、Soundbar</li>
+                            <li>派对：一次性餐盘、球队装饰、零食</li>
+                            <li>服饰：球队球衣、棒球帽</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">2.14</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">情人节</h3>
+                    <div class="sites-container">
+                        <span class="site-tag us">全球</span>
+                        <span class="site-tag other">中东(2.9)</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>礼品：珠宝首饰、香氛、永生花</li>
+                            <li>定制：刻字饰品、定制相框</li>
+                            <li>个护：美容仪、沐浴礼盒</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">2月 - 4月</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">日本新生活/搬迁季</h3>
+                    <div class="sites-container">
+                        <span class="site-tag jp">日本</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>家居：窗帘、床上用品四件套</li>
+                            <li>家电：电饭煲、微波炉、热水壶</li>
+                            <li>职场：公文包、名片夹、商务套装</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="month-section">
+        <h2 class="month-title">3月 March</h2>
+        <div class="cards-grid">
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">3.8</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">国际妇女节</h3>
+                    <div class="sites-container">
+                        <span class="site-tag eu">欧洲</span>
+                        <span class="site-tag other">墨西哥</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>美妆：口红、眼影盘、护肤套装</li>
+                            <li>阅读：女性成长书籍、Kindle</li>
+                            <li>配饰：手袋、丝巾</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">3.14</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">白色情人节</h3>
+                    <div class="sites-container">
+                        <span class="site-tag jp">日本</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>回礼：白巧克力、曲奇饼干礼盒</li>
+                            <li>饰品：项链、手链（高客单）</li>
+                            <li>女性向：护手霜、香薰</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">3月全月</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">赏樱季 (Hanami)</h3>
+                    <div class="sites-container">
+                        <span class="site-tag jp">日本</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>户外：野餐垫、折叠椅、保冷箱</li>
+                            <li>餐饮：一次性粉色餐具、便当盒</li>
+                            <li>氛围：樱花装饰、自拍杆</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+    <section class="month-section">
+        <h2 class="month-title">4月 April</h2>
+        <div class="cards-grid">
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">4.5</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">复活节 (Easter)</h3>
+                    <div class="sites-container">
+                        <span class="site-tag us">美国</span>
+                        <span class="site-tag eu">欧洲</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>装饰：彩蛋套件、兔子摆件、花环</li>
+                            <li>儿童：毛绒玩具、糖果篮</li>
+                            <li>服饰：春季连衣裙、童装</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">4.29 - 5.5</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">日本黄金周</h3>
+                    <div class="sites-container">
+                        <span class="site-tag jp">日本</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>旅行：行李箱、收纳袋、颈枕、眼罩</li>
+                            <li>数码：数码相机、大容量SD卡、移动电源</li>
+                            <li>车载：车载充电器、手机支架</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="month-section">
+        <h2 class="month-title">5月 May</h2>
+        <div class="cards-grid">
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">5.10</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">母亲节</h3>
+                    <div class="sites-container">
+                        <span class="site-tag us">美国</span>
+                        <span class="site-tag eu">欧洲</span>
+                        <span class="site-tag jp">日本</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>美容：抗衰精华、美容仪、SPA礼券</li>
+                            <li>家居：香薰机、高端厨具、扫地机</li>
+                            <li>园艺：园艺手套、花种套装</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">5月下旬</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">游戏周 (Gaming Week)</h3>
+                    <div class="sites-container">
+                        <span class="site-tag eu">欧洲</span>
+                        <span class="site-tag other">中东</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>硬件：显卡、游戏显示器、机械键盘</li>
+                            <li>外设：电竞椅、游戏耳机、鼠标</li>
+                            <li>软件：游戏光盘、数字充值卡</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="month-section">
+        <h2 class="month-title">6月 June</h2>
+        <div class="cards-grid">
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">6.21</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">父亲节</h3>
+                    <div class="sites-container">
+                        <span class="site-tag us">美国</span>
+                        <span class="site-tag jp">日本</span>
+                        <span class="site-tag eu">欧洲</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>个护：电动剃须刀、男士护肤</li>
+                            <li>工具：多功能钳、电钻、车载工具箱</li>
+                            <li>爱好：钓鱼具、高尔夫配件</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">6月全月</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">梅雨季</h3>
+                    <div class="sites-container">
+                        <span class="site-tag jp">日本</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>防雨：轻量雨伞、时尚雨靴、雨衣</li>
+                            <li>除湿：除湿机、衣柜除湿剂、鞋烘干机</li>
+                            <li>生活：室内晾衣架、除菌喷雾</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+    <section class="month-section">
+        <h2 class="month-title">7月 July</h2>
+        <div class="cards-grid">
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">7月中旬 (预测)</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">Prime Day 会员日</h3>
+                    <div class="sites-container">
+                        <span class="site-tag us">全球</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>全品类：电子产品、智能家居、时尚服饰</li>
+                            <li>高客单：扫地机器人、空气炸锅、跑步机</li>
+                            <li>日常：纸品、洗护用品（囤货属性）</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+             <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">7月 - 8月</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">暑假/夏日大促</h3>
+                    <div class="sites-container">
+                        <span class="site-tag eu">欧洲</span>
+                        <span class="site-tag jp">日本</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>海滩：充气泳池、浮排、沙滩巾、遮阳伞</li>
+                            <li>降温：挂脖风扇、冰感坐垫、冷饮杯</li>
+                            <li>露营：帐篷、烧烤炉、便携电源</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="month-section">
+        <h2 class="month-title">8月 August</h2>
+        <div class="cards-grid">
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">8.1 - 9.15</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">返校季 (Back to School)</h3>
+                    <div class="sites-container">
+                        <span class="site-tag us">美国</span>
+                        <span class="site-tag eu">欧洲</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>学习：书包、科学计算器、活页本</li>
+                            <li>宿舍：床单三件套、台灯、迷你冰箱</li>
+                            <li>电子：笔记本电脑、降噪耳机</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">8月中旬</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">盂兰盆节 (Obon)</h3>
+                    <div class="sites-container">
+                        <span class="site-tag jp">日本</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>祭祀：佛坛用品、蜡烛、线香</li>
+                            <li>返乡：长途旅行颈枕、车载收纳</li>
+                            <li>礼品：素面礼盒、果冻礼盒</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="month-section">
+        <h2 class="month-title">9月 September</h2>
+        <div class="cards-grid">
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">9.7</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">劳动节 (Labor Day)</h3>
+                    <div class="sites-container">
+                        <span class="site-tag us">美国</span>
+                        <span class="site-tag us">加拿大</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>清仓：夏季服饰、庭院家具、烧烤用品</li>
+                            <li>家居：床垫、沙发（大件家具促销）</li>
+                            <li>秋季：卫衣、轻薄外套</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="month-section">
+        <h2 class="month-title">10月 October</h2>
+        <div class="cards-grid">
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">10月中旬 (预测)</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">Prime Big Deal Days</h3>
+                    <div class="sites-container">
+                        <span class="site-tag us">全球</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>早鸟礼物：玩具、热门电子产品</li>
+                            <li>冬装：羽绒服、毛衣</li>
+                            <li>美妆：圣诞倒数日历 (Advent Calendars)</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">10.31</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">万圣节 (Halloween)</h3>
+                    <div class="sites-container">
+                        <span class="site-tag us">美/欧</span>
+                        <span class="site-tag jp">日本</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>装扮：Cosplay服装、面具、宠物万圣节装</li>
+                            <li>氛围：南瓜灯、雾化器、蜘蛛网装饰</li>
+                            <li>食品：大包装糖果</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="month-section">
+        <h2 class="month-title">11月 November</h2>
+        <div class="cards-grid">
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">11.26 - 11.30</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">黑五网一 (BFCM)</h3>
+                    <div class="sites-container">
+                        <span class="site-tag us">全球</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>全品类：全年折扣力度最大</li>
+                            <li>电子：电视、电脑、智能家居</li>
+                            <li>小家电：空气炸锅、咖啡机、吸尘器</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">11.11</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">双十一 / Singles Day</h3>
+                    <div class="sites-container">
+                        <span class="site-tag other">中东</span>
+                        <span class="site-tag eu">欧洲部分</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>电子：手机、耳机、配件</li>
+                            <li>时尚：快时尚服饰、美妆护肤</li>
+                            <li>冲动消费：低价小商品、盲盒</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="month-section">
+        <h2 class="month-title">12月 December</h2>
+        <div class="cards-grid">
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">12.25</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">圣诞节</h3>
+                    <div class="sites-container">
+                        <span class="site-tag us">全球</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>礼物：玩具（乐高/芭比）、游戏机</li>
+                            <li>装饰：圣诞树、彩灯、挂饰</li>
+                            <li>冬装：丑毛衣 (Ugly Sweater)、保暖袜</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="event-card">
+                <div class="card-header">
+                    <span class="date-badge">12月 - 3月</span>
+                </div>
+                <div class="card-body">
+                    <h3 class="event-name">滑雪/冬季运动季</h3>
+                    <div class="sites-container">
+                        <span class="site-tag jp">日本</span>
+                        <span class="site-tag eu">欧洲</span>
+                    </div>
+                    <div class="category-list">
+                        <h4>热卖品类</h4>
+                        <ul>
+                            <li>装备：滑雪板、滑雪镜、头盔、手套</li>
+                            <li>保暖：发热内衣、暖宝宝、保温杯</li>
+                            <li>车载：防滑链、除雪铲</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Amazon Global Selling Strategy Report. 数据来源：亚马逊全球开店官方资料.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
